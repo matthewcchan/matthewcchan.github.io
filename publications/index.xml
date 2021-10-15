@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Matthew C. Chan</title>
+    <link>https://matthewcchan.github.io/publications/</link>
+    <description>Recent content in Publications on Matthew C. Chan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://matthewcchan.github.io/publications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://matthewcchan.github.io/publications/bregante_2021/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matthewcchan.github.io/publications/bregante_2021/</guid>
+      <description>br { line-height: 150%; }  The Shape of Water in Zeolites and its Impact on Oxidation Catalysis  D. T. Bregante, M. Chan, J. Z. Tan, E. Z. Ayla, C. P. Nicholas, D. Shukla, D. W. Flaherty, In review. Preprint Abstract  Solvent structures that surround active sites reorganize during catalysis and influence the stability of surface intermediates. Within the pores of a zeolite, H2O molecules form hydrogen-bonded structures that differ significantly from bulk H2O.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://matthewcchan.github.io/publications/chan_msm_2021/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matthewcchan.github.io/publications/chan_msm_2021/</guid>
+      <description>br { line-height: 150%; }  Markov State Modeling of Membrane Transporters  Matthew C. Chan, Diwakar Shukla, Journal of Structural Biology, 213, 19, 107800, (2021). Publisher&#39;s site Abstract  The flux of ions and molecules in and out of the cell is vital for maintaining the basis of various biological processes. The permeation of substrates across the cellular membrane is mediated through the function of specialized integral membrane proteins commonly known as membrane transporters.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://matthewcchan.github.io/publications/chan_sert_2021/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matthewcchan.github.io/publications/chan_sert_2021/</guid>
+      <description>br { line-height: 150%; }  The Substrate Import Mechanism of the Human Serotonin Transporter  M. C. Chan*, B. Selvam*, H. J. Young, J. Park, E. Procko, D. Shukla, In review. Preprint Abstract  The serotonin transporter, SERT, initiates the reuptake of extracellular serotonin in the synapse to terminate neurotransmission. Recently, the cryo-EM structures of SERT bound to ibogaine resolved in different states provided a glimpse of functional conformations at atomistic resolution.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://matthewcchan.github.io/publications/hammond_2017/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matthewcchan.github.io/publications/hammond_2017/</guid>
+      <description>br { line-height: 150%; }  Computational and Experimental Studies of ADP-Ribosylation R. G. Hammond, X. Tan, M. Chan, A. Goel, M. A. Johnson, in  Methods in Molecular Biology: Poly(ADP-Ribose) Polymerase, A. Tulin (ed.), Springer, 2017. Full Text Abstract  The macrodomains are a multifunctional protein family that function as receptors and enzymes acting on poly(ADP-ribose), ADP-ribosylated proteins, and other metabolites of nicotinamide adenine dinucleotide (NAD+).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://matthewcchan.github.io/publications/shamsi_2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matthewcchan.github.io/publications/shamsi_2020/</guid>
+      <description>br { line-height: 150%; }  TLMutation: Predicting the Effects of Mutations Using Transfer Learning  Zahra Shamsi*, Matthew Chan*, Diwakar Shukla, The Journal of Physical Chemistry B, 124, 19, 3845-3854, (2020). Full text Abstract  A reccurring challenge in bioinformatics is predicting the phenotypic consequence of amino acid variation in proteins. With the recent advancements in sequencing techniques, sufficient genomic data has become available to train models that predict the evolutionary statistical energies, but there is still inadequate experimental data to directly predict functional effects.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://matthewcchan.github.io/publications/young_2021/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matthewcchan.github.io/publications/young_2021/</guid>
+      <description>br { line-height: 150%; }  Deep Mutagenesis of a Neurotransmitter Transporter for Uptake of a Non-native Substrate Informs how Sequence Features Relate to Conformational Dynamics  H. J. Young*, M. C. Chan*, B. Selvam, S. K. Szymanski, D. Shukla, E. Procko, In review. Preprint Abstract  The serotonin transporter, SERT, catalyzes serotonin reuptake at the synapse to terminate neurotransmission via an alternating access mechanism, and SERT inhibitors are the most widely prescribed antidepressants.</description>
+    </item>
+    
+  </channel>
+</rss>
