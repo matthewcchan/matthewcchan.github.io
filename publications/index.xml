@@ -1,56 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Matthew C. Chan</title>
-    <link>https://matthewcchan.github.io/</link>
-    <description>Recent content on Matthew C. Chan</description>
+    <title>Publications on Matthew C. Chan</title>
+    <link>https://matthewcchan.github.io/publications/</link>
+    <description>Recent content in Publications on Matthew C. Chan</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://matthewcchan.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>https://matthewcchan.github.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://matthewcchan.github.io/about/</guid>
-      <description>img { display: block; margin-left: auto; margin-right: auto; }  Hello! My name is Matthew.  I am currently a Ph.D. Candidate in the Shukla Group in the Department of Chemical and Biomolecular Enginering at the University of Illinois at Urbana-Champaign. My research involves using computational methods, primarily molecular dynamics simulations, to investigate conformational dynamics of membrane transport proteins.  Before my pursuing my Ph.D., I obtained my bachelor&#39;s degree in Biomedical Engineering and Applied Mathematics at The University of Alabama at Birmingham.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://matthewcchan.github.io/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://matthewcchan.github.io/contact/</guid>
-      <description>   Contact   </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://matthewcchan.github.io/cv/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://matthewcchan.github.io/cv/</guid>
-      <description>       </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://matthewcchan.github.io/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://matthewcchan.github.io/projects/</guid>
-      <description>Conformational dynamics and regulation of neurotransmitter transporters Neurotransmitters are important signaling molecules that regulate many bodily functions. Termination of the neuronal signaling is initated by the reuptake of neurotransmitters from the synaptic cleft via specalized membrane proteins known as neurotransmitter transporters. These transporters utilize a favorable ion gradient to transport the substrate into the neuron. Additionally, these proteins are a major molecular target for antidepressents. This project aims to characterize the conformational dynamics associated with neurotransmitter transport and uncover the molecular mechanisms in which these transporters are regulated.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://matthewcchan.github.io/publications/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://matthewcchan.github.io/publications/</guid>
-      <description>Peer-Reviewed Publications  M. C. Chan, K. K. Chan, E. Procko, D. Shukla, &#34;Machine Learning Guided Design of High Affinity ACE2 Decoys for SARS-CoV-2 Neutralization&#34;, In review. Preprint   M. C. Chan, E. Procko, D. Shukla, &#34;Structural Rearrangement of the Intracellular Gate of the Serotonin Transporter induced by Thr276 Phosphorylation&#34;, In review. Preprint   H. J. Young*, M. C. Chan*, B. Selvam, S. K. Szymanski, D.</description>
-    </item>
-    
+    <language>en-us</language><atom:link href="https://matthewcchan.github.io/publications/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://matthewcchan.github.io/publications/bregante_2021/</link>
