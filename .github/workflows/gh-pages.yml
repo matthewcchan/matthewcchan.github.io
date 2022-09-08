@@ -28,7 +28,7 @@ jobs:
           extended: true
 
       - name: Check Hugo version
-        run: hugo version
+        run: hugo version; echo "${{ github.event.inputs.hugoVersion }}"
 
       - name: Build Hugo site
         run: hugo --minify 
