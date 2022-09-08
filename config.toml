@@ -7,7 +7,7 @@ theme = "hello-friend-ng"
     # Default theme "light" or "dark"
     defaultTheme = "light"
 
-    homeSubtitle = "Mahan Postdoctorl Fellow | Fred Hutchinson Cancer Research Center"
+    homeSubtitle = "Mahan Postdoctoral Fellow | Fred Hutchinson Cancer Research Center"
 
     [params.logo]
         logoText = "/home/matthew c chan"
