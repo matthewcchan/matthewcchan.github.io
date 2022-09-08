@@ -20,3 +20,19 @@ theme = "hello-friend-ng"
     [[params.social]]
         name = "twitter"
         url = "https://twitter.com/mattcchan/"
+
+    [[params.social]]
+        name = "linkedin"
+        url = "https://www.linkedin.com/in/matthew-c-chan-0/"
+
+    [[params.social]]
+        name = "github"
+        url = "https://github.com/matthewcchan/"
+
+    [[params.social]]
+        name = "orcid"
+        url = "https://orcid.org/0000-0002-9826-1983/"
+
+    [[params.social]]
+        name = "email"
+        url = "mailto:mc26@illinois.edu"
