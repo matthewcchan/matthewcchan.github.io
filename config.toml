@@ -1,65 +1,77 @@
 baseurl = "https://matthewcchan.github.io/"
-languageCode = 'en-us'
-title = 'Matthew C. Chan'
+languageCode = "en-us"
+title = "Matthew C. Chan"
 theme = "hello-friend-ng"
 
 [params]
-    # Default theme "light" or "dark"
-    defaultTheme = "light"
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
 
-    homeSubtitle = "Mahan Postdoctoral Fellow | Fred Hutchinson Cancer Research Center"
+  # Metadata mostly used in document's head
+  description = ""
+  keywords = ""
+  images = [""]
 
-    [params.logo]
-        logoText = "/home/matthew c chan"
-        logoHomeLink = "/"
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = ""
+  # Default theme "light" or "dark"
+  defaultTheme = "light"
 
-    # Add social media icons and links
-    [[params.social]]
-        name = "googlescholar"
-        url = "https://scholar.google.com/citations?user=hpHJn5QAAAAJ&hl=en/"
+  homeSubtitle = "Mahan Postdoctoral Fellow | Fred Hutchinson Cancer Research Center"
 
-    [[params.social]]
-        name = "twitter"
-        url = "https://twitter.com/mattcchan/"
+  [params.logo]
+    logoText = "/home/matthew c chan"
+    logoHomeLink = "/"
 
-    [[params.social]]
-        name = "linkedin"
-        url = "https://www.linkedin.com/in/matthew-c-chan-0/"
+  [[params.social]]
+    name = "googlescholar"
+    url = "https://scholar.google.com/citations?user=hpHJn5QAAAAJ&hl=en/"
 
-    [[params.social]]
-        name = "github"
-        url = "https://github.com/matthewcchan/"
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/mattcchan/"
 
-    [[params.social]]
-        name = "orcid"
-        url = "https://orcid.org/0000-0002-9826-1983/"
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/matthew-c-chan-0/"
 
-    [[params.social]]
-        name = "email"
-        url = "mailto:mc26@illinois.edu"
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/matthewcchan/"
 
-# Menu parameters
+  [[params.social]]
+    name = "orcid"
+    url = "https://orcid.org/0000-0002-9826-1983/"
+
+  [[params.social]]
+    name = "email"
+    url = "mailto:mc26@illinois.edu"
+
+
+# And you can even create generic menu
 [menu]
-    [[menu.main]]
-        identifier = "about"
-        name       = "About"
-        url        = "/about"
-        weight     = 10    
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+    weight     = 10    
 
-    [[menu.main]]
-        identifier = "cv"
-        name       = "CV"
-        url        = "/cv"
-        weight     = 20
+  [[menu.main]]
+    identifier = "cv"
+    name       = "CV"
+    url        = "/cv"
+    weight     = 20
 
-    [[menu.main]]
-        identifier = "project"
-        name       = "Projects"
-        url        = "/projects"
-        weight     = 30    
+  [[menu.main]]
+    identifier = "project"
+    name       = "Projects"
+    url        = "/projects"
+    weight     = 30    
 
-    [[menu.main]]
-        identifier = "publications"
-        name       = "Publications"
-        url        = "/publications"
-        weight     = 40
+  [[menu.main]]
+    identifier = "publications"
+    name       = "Publications"
+    url        = "/publications"
+    weight     = 40
