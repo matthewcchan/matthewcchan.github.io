@@ -28,7 +28,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugh mod clean; hugo --minify ; ls ./public ; cat ./public/index.html
+        run: hugo mod clean; hugo --minify ; ls ./public ; cat ./public/index.html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
