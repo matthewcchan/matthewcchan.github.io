@@ -27,8 +27,11 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Build
-        run: hugo mod clean; hugo --minify ; ls ./public ; cat ./public/index.html
+      - name: Check Hugo version
+        run: hugo version
+
+      - name: Build Hugo site
+        run: hugo --minify 
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
