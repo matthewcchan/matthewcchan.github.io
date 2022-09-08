@@ -1,0 +1,22 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Matthew C. Chan'
+theme = "hello-friend-ng"
+
+[params]
+    # Default theme "light" or "dark"
+    defaultTheme = "light"
+
+    homeSubtitle = "Mahan Postdoctorl Fellow | Fred Hutchinson Cancer Research Center"
+
+    [params.logo]
+        logoText = "/home/matthew c chan"
+        logoHomeLink = "/"
+
+    [[params.social]]
+        name = "googlescholar"
+        url = "https://scholar.google.com/citations?user=hpHJn5QAAAAJ&hl=en/"
+
+    [[params.social]]
+        name = "twitter"
+        url = "https://twitter.com/mattcchan/"
