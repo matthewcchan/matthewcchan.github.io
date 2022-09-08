@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v2
         with:
@@ -28,7 +28,7 @@ jobs:
           extended: true
 
       - name: Check Hugo version
-        run: hugo version; echo "${{ github.event.inputs.hugoVersion }}"
+        run: hugo version
 
       - name: Build Hugo site
         run: hugo --minify 
