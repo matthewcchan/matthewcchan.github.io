@@ -1,5 +1,66 @@
 baseURL = "https://matthewcchan.github.io"
-title   = "Hello Friend NG"
+title   = "Matthew C. Chan"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
+
+[params]
+    # Directory name of your blog content (default is `content/posts`)
+    contentTypeName = ""
+    # Default theme "light" or "dark"
+    defaultTheme = "light"
+
+    homeSubtitle = "Mahan Postdoctoral Fellow | Fred Hutchinson Cancer Research Center"
+
+    [params.logo]
+        logoText = "/home/matthew c chan"
+        logoHomeLink = "/"
+
+    [[params.social]]
+        name = "googlescholar"
+        url = "https://scholar.google.com/citations?user=hpHJn5QAAAAJ&hl=en/"
+
+    [[params.social]]
+        name = "twitter"
+        url = "https://twitter.com/mattcchan/"
+
+    [[params.social]]
+        name = "linkedin"
+        url = "https://www.linkedin.com/in/matthew-c-chan-0/"
+
+    [[params.social]]
+        name = "github"
+        url = "https://github.com/matthewcchan/"
+
+    [[params.social]]
+        name = "orcid"
+        url = "https://orcid.org/0000-0002-9826-1983/"
+
+    [[params.social]]
+        name = "email"
+        url = "mailto:mc26@illinois.edu"
+
+[menu]
+    [[menu.main]]
+        identifier = "about"
+        name       = "About"
+        url        = "/about"
+        weight     = 10    
+
+    [[menu.main]]
+        identifier = "cv"
+        name       = "CV"
+        url        = "/cv"
+        weight     = 20
+
+    [[menu.main]]
+        identifier = "project"
+        name       = "Projects"
+        url        = "/projects"
+        weight     = 30    
+
+    [[menu.main]]
+        identifier = "publications"
+        name       = "Publications"
+        url        = "/publications"
+        weight     = 40
