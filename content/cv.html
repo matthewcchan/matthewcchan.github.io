@@ -29,13 +29,38 @@ headless = true
   #topButton:hover {
     background-color: #667990;
   }
+
+  /* Style buttons */
+.btn {
+  background-color: #096feb;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: #667990;
+}
+
+
 </style>
 </head>
 
 <body>
 
+<a href=../cv/MatthewChan_CV_Sep2022.pdf download="" style="text-decoration: none"
+
+<button class="btn"><b>Download CV</b><i class="fa fa-download" style="color:#FFFFFF"></i></button>
+</a>
+
+
+
 <h1>MATTHEW C. CHAN</h1>
-<b>Mahan Postdoctoral Fellow<br>
+<b>Mahan Postdoctoral Fellow <br> 
 Fred Hutchinson Cancer Research Center<br>
 Seattle, WA 98109<br>
 mchan3[at]fredhutch.org</b>
@@ -252,6 +277,7 @@ mchan3[at]fredhutch.org</b>
   Southeast Magnetic Resonance Conference Student Travel Award <span style="float:right;"> 2016 </span> <br>
   Alabama Section of the ACS Undergraduate Student Travel Award <span style="float:right;"> 2015 </span> <br>
 </p>
+
 <button onclick="topFunction()" id="topButton" title="Go to top"><i class="fa fa-chevron-up" style="color:#FFFFFF"></i></i></button>
 
 
