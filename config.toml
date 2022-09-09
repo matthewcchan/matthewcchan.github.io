@@ -1,5 +1,5 @@
-baseURL = "https://matthewcchan.github.io/"
+baseURL = "https://matthewcchan.github.io"
+title   = "Hello Friend NG"
 languageCode = "en-us"
-title = "Matthew C. Chan"
 theme = "hello-friend-ng"
 
