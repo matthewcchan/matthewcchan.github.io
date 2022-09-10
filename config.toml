@@ -8,7 +8,7 @@ theme = "hello-friend-ng"
     # Directory name of your blog content (default is `content/posts`)
     contentTypeName = ""
     # Default theme "light" or "dark"
-    # defaultTheme = "light"
+    defaultTheme = "light"
 
     homeSubtitle = "Mahan Postdoctoral Fellow | Fred Hutchinson Cancer Research Center"
     backgroundImage = "img/SERT_blender_cover.png"
