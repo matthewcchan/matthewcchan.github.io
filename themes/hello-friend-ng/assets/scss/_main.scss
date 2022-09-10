@@ -56,6 +56,7 @@ body {
     background-color: $light-background;
     color: $light-color;
   }
+
 }
 
 h2,
@@ -422,12 +423,25 @@ hr {
   z-index: 100000;
 }
 
+@keyframes opacity_fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .background-image {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
+  animation: opacity_fade 1.5s forwards;
 }
+
+
+  
 
 // Prism JS Additionals
 .highlight {

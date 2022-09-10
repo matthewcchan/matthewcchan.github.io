@@ -11,6 +11,7 @@ theme = "hello-friend-ng"
     # defaultTheme = "light"
 
     homeSubtitle = "Mahan Postdoctoral Fellow | Fred Hutchinson Cancer Research Center"
+    backgroundImage = "img/SERT_blender_cover.png"
 
     [params.logo]
         logoText = "/home/matthew c chan"
