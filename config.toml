@@ -34,7 +34,7 @@ theme = "hello-friend-ng"
 
     [[params.social]]
         name = "orcid"
-        url = "https://orcid.org/0000-0002-9826-1983/"
+        url = "https://orcid.org/0000-0002-9826-1983"
 
     [[params.social]]
         name = "email"
