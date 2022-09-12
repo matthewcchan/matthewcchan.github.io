@@ -9,7 +9,7 @@ theme = "hello-friend-ng"
     contentTypeName = ""
     
     # Default theme "light" or "dark"
-    defaultTheme = "light"
+    # defaultTheme = "light"
 
     # Enable theme toggle
     # This options enables the theme toggle for the theme. 
@@ -81,3 +81,8 @@ theme = "hello-friend-ng"
         name       = "Publications"
         url        = "/publications"
         weight     = 40
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+  series   = "series"
