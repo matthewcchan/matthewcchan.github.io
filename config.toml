@@ -31,7 +31,7 @@ theme = "hello-friend-ng"
         # logoCursorDisabled = false
         
         # Set to a valid CSS color to change the cursor in the logo.
-        # logoCursorColor    = "#096feb"
+        logoCursorColor    = "#096feb"
         
         # Set to a valid CSS time value to change the animation duration, "0s" to disable.
         # logoCursorAnimate  = "2s"
