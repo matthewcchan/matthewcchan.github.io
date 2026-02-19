@@ -5,6 +5,7 @@ theme = "hello-friend-ng"
 
 
 [params]
+    author = "Matthew C. Chan"
     # Directory name of your blog content (default is `content/posts`)
     contentTypeName = ""
     
