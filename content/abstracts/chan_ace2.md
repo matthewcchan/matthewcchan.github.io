@@ -1,0 +1,14 @@
+---
+date: "2021-12-23"
+title: "Machine Learning Guided Design of High Affinity ACE2 Decoys for SARS-CoV-2 Neutralization"
+type: "preprint"
+---
+
+<p> <b>M. C. Chan</b>, K. K. Chan, E. Procko, D. Shukla, "<a href=../abstracts/chan_ace2/>Machine Learning Guided Design of High Affinity ACE2 Decoys for SARS-CoV-2 Neutralization</a>", <i>The Journal of Physical Chemistry B</i>, 127(9), 1995-2001. <a href="https://doi.org/10.1101/2021.12.22.473902" target="_blank">DOI</a>
+</p>
+
+<center><img src="/img/publications/ace2_tlmutation_fig1.png" alt="ace2_tlmutation_toc" width="500"></center>
+
+### Abstract
+
+A potential therapeutic candidate for neutralizing SARS-CoV-2 infection is engineering high-affinity soluble ACE2 decoy proteins to compete for binding of the viral spike (S) protein. Previously, a deep mutational scan of ACE2 was performed and has led to the identification of a triple mutant ACE2 variant, named ACE2<sub>2</sub>.v.2.4, that exhibits nanomolar affinity binding to the RBD domain of S. Using a recently developed transfer learning algorithm, TLmutation, we sought to identified other ACE2 variants, namely double mutants, that may exhibit similar binding affinity with decreased mutational load. Upon training a TLmutation model on the effects of single mutations, we identified several ACE2 double mutants that bind to RBD with tighter affinity as compared to the wild type, most notably, L79V;N90D that binds RBD with similar affinity to ACE2<sub>2</sub>.v.2.4. The successful experimental validation of the double mutants demonstrated the use transfer and supervised learning approaches for engineering protein-protein interactions and identifying high affinity ACE2 peptides for targeting SARS-CoV-2.

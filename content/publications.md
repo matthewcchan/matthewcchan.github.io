@@ -1,44 +1,8 @@
-+++
-headless = true
-title = "Research Articles"
-+++
+---
+title: "Research Articles"
+---
 
-<!DOCTYPE html>
-<html>
-<head>
-
-<style>
-li{
-  margin: 50px 0; /* spacing between list items */
-}
-
-#topButton {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: #096feb; /* Set a background color */
-  color: #FFFFFF; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 4px; /* Rounded corners */
-}
-
-  #topButton:hover {
-    background-color: #667990;
-  }
-
-
-</style>
-</head>
-
-<body>
-
-
-<ol reversed>
+<ol reversed class="publications-list">
 
   <li>
     <p><b>M. C. Chan</b>, Y. Alfawaz, D. Shukla, "<a href=../abstracts/chan_bica/>Molecular Mechanism of Substrate Transport and Dynamics of the Cyanobacterial Bicarbonate Transporter BicA</a>", <i>In review</i>. <a href="https://doi.org/10.1101/2022.06.08.495363" target="_blank">Preprint</a>
@@ -56,8 +20,8 @@ li{
     <p><b>M. C. Chan</b>, D. Shukla, "<a href=../abstracts/chan_gly_nss/>The Effects of N-linked Glycosylation on SLC6 Transporters</a>", <i>Journal of Chemical Information and Modeling</i>, 63(9), 2748-2758, (2023). <a href="https://doi.org/10.1021/acs.jcim.2c00940" target="_blank">DOI</a>
     </p>
     <center><img src="/img/publications/gly_NSS_toc.jpg" alt="gly_NSS_toc" width="500"></center>
-    Featured on the cover of <a href="https://pubs.acs.org/toc/jcisd8/63/9">Journal of Chemical Information and Modeling</a>. 
-    <br> 
+    Featured on the cover of <a href="https://pubs.acs.org/toc/jcisd8/63/9">Journal of Chemical Information and Modeling</a>.
+    <br>
     <br>
     <center><img src="/img/publications/gly_NSS_JCIM_Cover.jpg" alt="JCIM_Cover" width="250"></center>
   </li>
@@ -71,9 +35,9 @@ li{
   <li>
     <p><b>M. C. Chan</b>, E. Procko, D. Shukla, "<a href=../abstracts/chan_psert_2022/>Structural Rearrangement of the Serotonin Transporter Intracellular Gate Induced by Thr276 Phosphorylation</a>", <i>ACS Chemical Neuroscience</i>, 13(7), 933-945, (2022). <a href="https://doi.org/10.1021/acschemneuro.1c00714" target="_blank">DOI</a>
     </p>
-  <center><img src="/img/publications/psert_toc.png" alt="psert_toc" width="500"></center>  
-  Featured on the cover of <a href="https://pubs.acs.org/toc/acncdm/13/7">ACS Chemical Neuroscience</a>. 
-  <br> 
+  <center><img src="/img/publications/psert_toc.png" alt="psert_toc" width="500"></center>
+  Featured on the cover of <a href="https://pubs.acs.org/toc/acncdm/13/7">ACS Chemical Neuroscience</a>.
+  <br>
   <br>
   <center><img src="/img/publications/ACSChemNeuro_Cover.jpeg" alt="ACSChemNeuro_Cover" width="250"></center>
   </li>
@@ -82,8 +46,8 @@ li{
     <p><b>M. C. Chan*</b>, B. Selvam*, H. J. Young, E. Procko, D. Shukla, "<a href="../abstracts/chan_sert_2022/">The Substrate Import Mechanism of the Human Serotonin Transporter</a>", <i>Biophysical Journal</i>, 121(5), 715-730, (2022). <a href="https://doi.org/10.1016/j.bpj.2022.01.024" target="_blank">DOI</a>
     </p>
   <center><img src="/img/publications/sert_md_toc.jpg" alt="sert_md_toc" width="600"></center>
-  Featured on the cover of <a href="https://www.cell.com/biophysj/issue?pii=S0006-3495(21)X0008-2">Biophysical Journal</a> and the <a href="https://www.biophysics.org/blog/illuminating-the-molecular-machinery-of-the-serotonin-transporter">BPS Blog</a>. 
-  <br> 
+  Featured on the cover of <a href="https://www.cell.com/biophysj/issue?pii=S0006-3495(21)X0008-2">Biophysical Journal</a> and the <a href="https://www.biophysics.org/blog/illuminating-the-molecular-machinery-of-the-serotonin-transporter">BPS Blog</a>.
+  <br>
   <br>
   <center><img src="/img/publications/BiophysicalJ_Cover.jpg" alt="BiophysicalJ_Cover" width="250"></center>
   </li>
@@ -93,7 +57,7 @@ li{
   </p>
   <p>L. Zhang, S. Dutta*, S. Xiong*, <b>M. Chan*</b>, K. K. Chan, T. M. Fan, K. L. Bailey, M. Lindebald, L. M. Cooper, L. Rong, A. F. Gugliuzza, D. Shukla, E. Procko, J. Rehman, A. B. Malik, "<a href="../abstracts/zhang_ace2_2022/">Engineered ACE2 decoy mitigates lung injury and death induced by SARS-CoV-2 variants</a>", <i>Nature Chemical Biology</i>, 18(3), 342-351, (2022). <a href="https://doi.org/10.1038/s41589-021-00965-6" target="_blank">DOI</a>
   <center><img src="/img/publications/ace2_decoy_toc.png" alt="ace2_decoy_toc" width="600"></center>
-  <br> 
+  <br>
   Featured in <a href="https://today.uic.edu/decoy-protein-works-against-multiple-sars-cov-2-variants">UIC Today</a> and the <a href="https://directorsblog.nih.gov/2022/02/01/decoy-protein-works-against-multiple-coronavirus-variants-in-early-study/">NIH Director's Blog</a>.
   </li>
 
@@ -107,10 +71,10 @@ li{
     <p> D. T. Bregante, <b>M. C. Chan</b>, J. Z. Tan, E. Z. Ayla, C. P. Nicholas, D. Shukla, D. W. Flaherty, "<a href="../abstracts/bregante_zeolite_2021/">The Shape of Water in Zeolites and its Impact on Oxidation Catalysis</a>", <i>Nature Catalysis</i>, 4(9), 797-808, (2021). <a href="https://doi.org/10.1038/s41929-021-00672-4" target="_blank">DOI</a>
     </p>
     <center><img src="/img/publications/shape_of_water_toc.png" alt="shape_of_water_toc" width="600"></center>
-    <br> 
+    <br>
     Featured in the <a href="https://news.illinois.edu/view/6367/219594299">Illinois News Bureau</a>.
   </li>
- 
+
   <li>
     <p> Z. Shamsi*, <b>M. Chan*</b>, D. Shukla, "<a href="../abstracts/shamsi_tlmutation_2020/">TLmutation: Predicting the Effects of Mutations Using Transfer Learning</a>", <i>The Journal of Physical Chemistry B</i>, 124 (19), 3845-3854, (2020). <a href="https://doi.org/10.1021/acs.jpcb.0c00197" target="_blank">DOI</a>
     </p>
@@ -119,7 +83,8 @@ li{
 
 </ol>
 
-<h2>Book Chapter</h2>
+## Book Chapter
+
 <ol reversed>
   <li>
     <p>R. G. Hammond, X. Tan, <b>M. Chan</b>, A. Goel, M. A. Johnson, "<a href="../abstracts/hammond_adp_2017/">Computational and Experimental Studies of ADP-Ribosylation</a>", in <i> Methods in Molecular Biology: Poly(ADP-Ribose) Polymerase</i>, A. Tulin (ed.), Springer, 2017. <a href="https://doi.org/10.1007/978-1-4939-6993-7_29" target="_blank">DOI</a>
@@ -127,31 +92,4 @@ li{
   </li>
 </ol>
 
-<button onclick="topFunction()" id="topButton" title="Go to top"><i class="fas fa-chevron-up" style="color:#FFFFFF"></i></button>
-
-
-</body>
-
-<script>
-  // Get the button
-  let mybutton = document.getElementById("topButton");
-  
-  // When the user scrolls down 100px from the top of the document, show the button
-  window.onscroll = function() {scrollFunction()};
-  
-  function scrollFunction() {
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-      mybutton.style.display = "block";
-    } else {
-      mybutton.style.display = "none";
-    }
-  }
-  
-  // When the user clicks on the button, scroll to the top of the document
-  function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
-  </script>
-
-</html>
+<button id="topButton" title="Go to top"><i class="fas fa-chevron-up" style="color:#FFFFFF"></i></button>

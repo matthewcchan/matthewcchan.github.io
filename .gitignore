@@ -1,2 +1,7 @@
-.hugo*
-.DS_store
+# Hugo
+.hugo_build.lock
+/public/
+/resources/_gen/
+
+# OS
+.DS_Store
