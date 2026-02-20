@@ -91,7 +91,7 @@ def format_authors_html(authors_field: str, cofirst_indices: set, corresponding_
     for i, author in enumerate(authors):
         name = name_to_initials(author)
         if i in cofirst_indices:
-            name += "*"
+            name += "<sup>*</sup>"
         if i in corresponding_indices:
             name += "<sup>†</sup>"
         if HIGHLIGHT_AUTHOR.lower() in author.lower():

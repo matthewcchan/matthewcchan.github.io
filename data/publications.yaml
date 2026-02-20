@@ -24,8 +24,8 @@
   status: published
   title: Ten simple rules for running a virtual program to introduce computational
     biology at the high school level
-  authors_html: H. Osuga*<sup>†</sup>, <b>M. C. Chan*<sup>†</sup></b>, K. Brower*,
-    L. J. Ray, J. T. Chowning
+  authors_html: H. Osuga<sup>*</sup><sup>†</sup>, <b>M. C. Chan<sup>*</sup><sup>†</sup></b>,
+    K. Brower<sup>*</sup>, L. J. Ray, J. T. Chowning
   year: '2025'
   doi: 10.1371/journal.pcbi.1013830
   preprint_url: ''
@@ -92,8 +92,8 @@
   status: preprint
   title: Deep mutagenesis of a neurotransmitter transporter for uptake of a non-native
     substrate informs how sequence features relate to conformational dynamics
-  authors_html: H. J. Young*, <b>M. C. Chan*</b>, B. Selvam, S. K. Szymanski, D. Shukla,
-    E. Procko
+  authors_html: H. J. Young<sup>*</sup>, <b>M. C. Chan<sup>*</sup></b>, B. Selvam,
+    S. K. Szymanski, D. Shukla, E. Procko
   year: '2021'
   doi: ''
   preprint_url: https://doi.org/10.1101/2021.04.19.440442
@@ -219,7 +219,8 @@
   pub_type: article
   status: published
   title: The substrate import mechanism of the human serotonin transporter
-  authors_html: <b>M. C. Chan*</b>, B. Selvam*, H. J. Young, E. Procko, D. Shukla
+  authors_html: <b>M. C. Chan<sup>*</sup></b>, B. Selvam<sup>*</sup>, H. J. Young,
+    E. Procko, D. Shukla
   year: '2022'
   doi: 10.1016/j.bpj.2022.01.024
   preprint_url: ''
@@ -247,8 +248,8 @@
   status: published
   title: Engineered ACE2 decoy mitigates lung injury and death induced by SARS-CoV-2
     variants
-  authors_html: L. Zhang, S. Dutta*, S. Xiong*, <b>M. Chan*</b>, K. K. Chan, T. M.
-    Fan, K. L. Bailey, M. Lindeblad, L. M. Cooper, L. Rong, others
+  authors_html: L. Zhang, S. Dutta<sup>*</sup>, S. Xiong<sup>*</sup>, <b>M. Chan<sup>*</sup></b>,
+    K. K. Chan, T. M. Fan, K. L. Bailey, M. Lindeblad, L. M. Cooper, L. Rong, others
   year: '2022'
   doi: 10.1038/s41589-021-00965-6
   preprint_url: ''
@@ -327,7 +328,7 @@
   pub_type: article
   status: published
   title: 'TLmutation: Predicting the effects of mutations using transfer learning'
-  authors_html: Z. Shamsi*, <b>M. Chan*</b>, D. Shukla
+  authors_html: Z. Shamsi<sup>*</sup>, <b>M. Chan<sup>*</sup></b>, D. Shukla
   year: '2020'
   doi: 10.1021/acs.jpcb.0c00197
   preprint_url: ''
