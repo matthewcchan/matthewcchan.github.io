@@ -1,4 +1,4 @@
-/* Scroll-to-top button */
+/* ── Scroll-to-top button ─────────────────────────────────────────────────── */
 #topButton {
   display: none;
   position: fixed;
@@ -18,7 +18,7 @@
   background-color: #667990;
 }
 
-/* Download button */
+/* ── Download button ──────────────────────────────────────────────────────── */
 .btn {
   background-color: #096feb;
   border: none;
@@ -33,14 +33,238 @@
   background-color: #667990;
 }
 
-/* Publications list spacing */
-.publications-list li {
-  margin: 50px 0;
-}
-
-/* Center images in content */
+/* ── Center images in non-publication content ─────────────────────────────── */
 .post-content img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* ── Publication filter panel ─────────────────────────────────────────────── */
+.pub-filters {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+/* "All" sits on its own line above the two rows */
+.filter-all {
+  align-self: flex-start;
+  margin-bottom: 0.25rem;
+}
+
+/* Each labelled row */
+.pub-filter-group {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.pub-filter-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.4;
+  white-space: nowrap;
+  min-width: 76px;   /* aligns the two button rows */
+  flex-shrink: 0;
+}
+
+.pub-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.filter-btn {
+  background: transparent;
+  border: 1.5px solid #096feb;
+  color: #096feb;
+  padding: 4px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.82rem;
+  font-family: inherit;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  background: #096feb;
+  color: #fff;
+}
+
+/* Institution buttons with school colors — on hover and when active */
+.filter-btn--uab:hover,
+.filter-btn--uab.active {
+  background: #1a5632;
+  color: #fdb913;
+  border-color: #FFFFFF;
+}
+
+.filter-btn--uiuc:hover,
+.filter-btn--uiuc.active {
+  background: #FF5F05;
+  color: #13294B;
+  border-color: #FFFFFF;
+}
+
+.filter-btn--fh:hover,
+.filter-btn--fh.active {
+  background: #1B365D;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+/* On small screens, stack label above its buttons */
+@media (max-width: 500px) {
+  .pub-filter-group {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+  }
+
+  .pub-filter-label {
+    min-width: unset;
+  }
+}
+
+/* ── Publication list container ───────────────────────────────────────────── */
+.pub-list {
+  display: flex;
+  flex-direction: column;
+  /* gap handled by .pub-card-wrapper margin-bottom to support collapse animation */
+}
+
+/* ── Card slide wrapper – collapses height when filtered out ──────────────── */
+.pub-card-wrapper {
+  display: grid;
+  grid-template-rows: 1fr;
+  /* overflow intentionally omitted – handled by .pub-card-clip so that
+     margin-bottom can animate freely without BFC interference */
+  margin-bottom: 1rem;
+  transition: grid-template-rows 0.4s ease, margin-bottom 0.4s ease;
+}
+
+.pub-card-wrapper.pub-card-hidden {
+  grid-template-rows: 0fr;
+  margin-bottom: 0;
+}
+
+/* Inner clip div – isolates overflow:hidden from the wrapper's margin */
+.pub-card-clip {
+  overflow: hidden;
+  min-height: 0;
+}
+
+/* ── Individual publication card ──────────────────────────────────────────── */
+.pub-card {
+  display: flex;
+  gap: 1.25rem;
+  padding: 1.1rem 1.25rem;
+  border-radius: 8px;
+  border: 1px solid rgba(128, 128, 128, 0.15);
+  background: rgba(128, 128, 128, 0.04);
+  align-items: flex-start;
+  transition: opacity 0.5s ease;
+}
+
+.pub-card-wrapper.pub-card-hidden .pub-card {
+  opacity: 0;
+}
+
+/* ── Thumbnail ────────────────────────────────────────────────────────────── */
+.pub-thumb {
+  flex: 0 0 170px;
+  width: 170px;
+}
+
+.pub-thumb img {
+  display: block;
+  margin: 0;           /* override .post-content img centering */
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  object-fit: contain;
+}
+
+/* ── Text content ─────────────────────────────────────────────────────────── */
+.pub-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.pub-content > p:first-child {
+  margin: 0 0 0.6rem 0;
+  line-height: 1.65;
+}
+
+/* ── Tags + badge row ─────────────────────────────────────────────────────── */
+.pub-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.pub-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.pub-tag {
+  background: rgba(9, 111, 235, 0.1);
+  color: #096feb;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.pub-badge {
+  background: rgba(210, 150, 0, 0.12);
+  color: #a07800;
+  border: 1px solid rgba(210, 150, 0, 0.35);
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+/* ── Featured-in note ─────────────────────────────────────────────────────── */
+.pub-note {
+  margin: 0.5rem 0 0 0;
+  font-size: 0.82rem;
+  opacity: 0.72;
+  line-height: 1.5;
+}
+
+/* ── Publication number ───────────────────────────────────────────────────── */
+.pub-number {
+  font-weight: 600;
+  margin-right: 0.2rem;
+}
+
+/* ── Book chapter section heading spacing ─────────────────────────────────── */
+.pub-section h2 {
+  margin-top: 2rem;
+}
+
+/* ── Responsive: stack on small screens ───────────────────────────────────── */
+@media (max-width: 600px) {
+  .pub-card {
+    flex-direction: column;
+  }
+
+  .pub-thumb {
+    width: 100%;
+    flex: none;
+  }
 }

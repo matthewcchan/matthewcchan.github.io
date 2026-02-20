@@ -1,0 +1,57 @@
+{{- /*
+  pub-cards shortcode
+  Usage:
+    {{< pub-cards type="article" >}}      — journal articles (default)
+    {{< pub-cards type="book" >}}         — book chapters
+    {{< pub-cards type="unpublished" >}}  — preprints / in review
+*/ -}}
+{{- $type := .Get "type" | default "article" -}}
+{{- $pubs := where site.Data.publications "pub_type" $type -}}
+{{- $sorted := sort $pubs "year" "desc" -}}
+{{- $total := len $sorted -}}
+{{- range $index, $e := $sorted -}}
+  <div class="pub-card" data-tags="{{ delimit $e.filter_tags " " }}">
+    {{- with $e.image }}
+    <div class="pub-thumb">
+      <img src="{{ . }}" alt="{{ $e.image_alt }}">
+    </div>
+    {{- end }}
+    <div class="pub-content">
+      <p>
+        <span class="pub-number">{{ sub $total $index }}.</span>
+        {{ $e.authors_html | safeHTML }},
+        &ldquo;{{- with $e.abstract_url -}}<a href="{{ . }}">{{- end -}}
+        {{- $e.title -}}
+        {{- with $e.abstract_url -}}</a>{{- end }}&rdquo;,
+        {{- if eq $e.status "preprint" }}
+        <i>In review</i>.
+        {{- with $e.preprint_url }} <a href="{{ . }}" target="_blank">Preprint</a>{{- end }}
+        {{- else if eq $e.pub_type "book" }}
+        in <i>{{ $e.booktitle }}</i>{{- with $e.editor }}, {{ . }} (ed.){{- end }}{{- with $e.publisher }}, {{ . }}{{- end }}, {{ $e.year }}.
+        {{- with $e.doi }} <a href="https://doi.org/{{ . }}" target="_blank">DOI</a>{{- end }}
+        {{- else }}
+        <i>{{ $e.journal }}</i>
+        {{- if and $e.volume $e.number }}, {{ $e.volume }}({{ $e.number }})
+        {{- else if $e.volume }}, {{ $e.volume }}
+        {{- end -}}
+        {{- with $e.pages }}, {{ . }}{{- end }}, ({{ $e.year }}).
+        {{- with $e.doi }} <a href="https://doi.org/{{ . }}" target="_blank">DOI</a>{{- end }}
+        {{- with $e.preprint_url }} <a href="{{ . }}" target="_blank">Preprint</a>{{- end }}
+        {{- end }}
+      </p>
+      <div class="pub-meta">
+        {{- if $e.display_tags }}
+        <div class="pub-tags">
+          {{- range $e.display_tags }}
+          <span class="pub-tag">{{ . }}</span>
+          {{- end }}
+        </div>
+        {{- end }}
+        {{- with $e.badge }}<span class="pub-badge">{{ . }}</span>{{- end }}
+      </div>
+      {{- with $e.note }}
+      <p class="pub-note">{{ . | safeHTML }}</p>
+      {{- end }}
+    </div>
+  </div>
+{{- end }}

@@ -1,95 +1,56 @@
 ---
-title: "Research Articles"
+title: "Publications"
 ---
 
-<ol reversed class="publications-list">
+<div class="pub-filters">
+  <button class="filter-btn filter-all active" id="filter-all">All</button>
 
-  <li>
-    <p><b>M. C. Chan</b>, Y. Alfawaz, D. Shukla, "<a href=../abstracts/chan_bica/>Molecular Mechanism of Substrate Transport and Dynamics of the Cyanobacterial Bicarbonate Transporter BicA</a>", <i>In review</i>. <a href="https://doi.org/10.1101/2022.06.08.495363" target="_blank">Preprint</a>
-    </p>
-    <center><img src="/img/publications/bica_fig1.png" alt="bica_toc" width="600"></center>
-  </li>
+  <div class="pub-filter-group">
+    <span class="pub-filter-label">Topic</span>
+    <div class="pub-filter-row">
+      <button class="filter-btn" data-filter="transporter" data-filter-row="topic">Transporter</button>
+      <button class="filter-btn" data-filter="mrna-translation" data-filter-row="topic">mRNA Translation</button>
+      <button class="filter-btn" data-filter="covid" data-filter-row="topic">COVID-19</button>
+      <button class="filter-btn" data-filter="catalysis" data-filter-row="topic">Catalysis</button>
+      <button class="filter-btn" data-filter="molecular-dynamics" data-filter-row="topic">Molecular Dynamics</button>
+      <button class="filter-btn" data-filter="cryo-em" data-filter-row="topic">Cryo-EM</button>
+      <button class="filter-btn" data-filter="machine-learning" data-filter-row="topic">Machine Learning</button>
+      <button class="filter-btn" data-filter="review" data-filter-row="topic">Review</button>
+    </div>
+  </div>
 
-  <li>
-    <p>H. J. Young*, <b>M. C. Chan*</b>, B. Selvam, S. K. Szymanski, D. Shukla, E. Procko, "<a href=../abstracts/young_dms/>Deep Mutagenesis of a Neurotransmitter Transporter for Uptake of a Non-native Substrate Informs how Sequence Features Relate to Conformational Dynamics</a>", <i>In review</i>. <a href="https://doi.org/10.1101/2021.04.19.440442" target="_blank">Preprint</a>
-    </p>
-    <center><img src="/img/publications/sert_dms_fig5.jpg" alt="sert_dms_toc" width="600"></center>
-  </li>
+  <div class="pub-filter-group">
+    <span class="pub-filter-label">Institution</span>
+    <div class="pub-filter-row">
+      <button class="filter-btn filter-btn--uab" data-filter="uab" data-filter-row="institution">UAB</button>
+      <button class="filter-btn filter-btn--uiuc" data-filter="uiuc" data-filter-row="institution">UIUC</button>
+      <button class="filter-btn filter-btn--fh" data-filter="fred-hutch" data-filter-row="institution">Fred Hutch</button>
+    </div>
+  </div>
+</div>
 
-  <li>
-    <p><b>M. C. Chan</b>, D. Shukla, "<a href=../abstracts/chan_gly_nss/>The Effects of N-linked Glycosylation on SLC6 Transporters</a>", <i>Journal of Chemical Information and Modeling</i>, 63(9), 2748-2758, (2023). <a href="https://doi.org/10.1021/acs.jcim.2c00940" target="_blank">DOI</a>
-    </p>
-    <center><img src="/img/publications/gly_NSS_toc.jpg" alt="gly_NSS_toc" width="500"></center>
-    Featured on the cover of <a href="https://pubs.acs.org/toc/jcisd8/63/9">Journal of Chemical Information and Modeling</a>.
-    <br>
-    <br>
-    <center><img src="/img/publications/gly_NSS_JCIM_Cover.jpg" alt="JCIM_Cover" width="250"></center>
-  </li>
+## Preprints
 
-  <li>
-    <p><b>M. C. Chan</b>, K. K. Chan, E. Procko, D. Shukla, "<a href=../abstracts/chan_ace2/>Machine Learning Guided Design of High Affinity ACE2 Decoys for SARS-CoV-2 Neutralization</a>", <i>The Journal of Physical Chemistry B</i>, 127(9), 1995-2001, (2023). <a href="https://pubs.acs.org/doi/10.1021/acs.jpcb.3c00469" target="_blank">DOI</a>
-    </p>
-    <center><img src="/img/publications/ace2_tlmutation_fig1.png" alt="ace2_tlmutation_toc" width="500"></center>
-  </li>
+<div class="pub-list">
+{{< pub-cards type="unpublished" >}}
+</div>
 
-  <li>
-    <p><b>M. C. Chan</b>, E. Procko, D. Shukla, "<a href=../abstracts/chan_psert_2022/>Structural Rearrangement of the Serotonin Transporter Intracellular Gate Induced by Thr276 Phosphorylation</a>", <i>ACS Chemical Neuroscience</i>, 13(7), 933-945, (2022). <a href="https://doi.org/10.1021/acschemneuro.1c00714" target="_blank">DOI</a>
-    </p>
-  <center><img src="/img/publications/psert_toc.png" alt="psert_toc" width="500"></center>
-  Featured on the cover of <a href="https://pubs.acs.org/toc/acncdm/13/7">ACS Chemical Neuroscience</a>.
-  <br>
-  <br>
-  <center><img src="/img/publications/ACSChemNeuro_Cover.jpeg" alt="ACSChemNeuro_Cover" width="250"></center>
-  </li>
-
-  <li>
-    <p><b>M. C. Chan*</b>, B. Selvam*, H. J. Young, E. Procko, D. Shukla, "<a href="../abstracts/chan_sert_2022/">The Substrate Import Mechanism of the Human Serotonin Transporter</a>", <i>Biophysical Journal</i>, 121(5), 715-730, (2022). <a href="https://doi.org/10.1016/j.bpj.2022.01.024" target="_blank">DOI</a>
-    </p>
-  <center><img src="/img/publications/sert_md_toc.jpg" alt="sert_md_toc" width="600"></center>
-  Featured on the cover of <a href="https://www.cell.com/biophysj/issue?pii=S0006-3495(21)X0008-2">Biophysical Journal</a> and the <a href="https://www.biophysics.org/blog/illuminating-the-molecular-machinery-of-the-serotonin-transporter">BPS Blog</a>.
-  <br>
-  <br>
-  <center><img src="/img/publications/BiophysicalJ_Cover.jpg" alt="BiophysicalJ_Cover" width="250"></center>
-  </li>
+<div class="pub-section" id="pre-prints">
 
 
-  <li>
-  </p>
-  <p>L. Zhang, S. Dutta*, S. Xiong*, <b>M. Chan*</b>, K. K. Chan, T. M. Fan, K. L. Bailey, M. Lindebald, L. M. Cooper, L. Rong, A. F. Gugliuzza, D. Shukla, E. Procko, J. Rehman, A. B. Malik, "<a href="../abstracts/zhang_ace2_2022/">Engineered ACE2 decoy mitigates lung injury and death induced by SARS-CoV-2 variants</a>", <i>Nature Chemical Biology</i>, 18(3), 342-351, (2022). <a href="https://doi.org/10.1038/s41589-021-00965-6" target="_blank">DOI</a>
-  <center><img src="/img/publications/ace2_decoy_toc.png" alt="ace2_decoy_toc" width="600"></center>
-  <br>
-  Featured in <a href="https://today.uic.edu/decoy-protein-works-against-multiple-sars-cov-2-variants">UIC Today</a> and the <a href="https://directorsblog.nih.gov/2022/02/01/decoy-protein-works-against-multiple-coronavirus-variants-in-early-study/">NIH Director's Blog</a>.
-  </li>
+## Peer-Reviewed Manuscripts
 
-  <li>
-    <p><b>M. C. Chan</b>, D. Shukla, "<a href="../abstracts/chan_msm_2021/">Markov State Modeling of Membrane Transport Proteins</a>", <i>Journal of Structural Biology</i>, 213(4), 107800, (2021). <a href="https://doi.org/10.1016/j.jsb.2021.107800" target="_blank">DOI</a>
-    </p>
-    <center><img src="/img/publications/membrane_msm_toc.jpg" alt="jsb_msm_toc" width="400"></center>
-  </li>
+<div class="pub-list">
+{{< pub-cards type="article" >}}
+</div>
 
-  <li>
-    <p> D. T. Bregante, <b>M. C. Chan</b>, J. Z. Tan, E. Z. Ayla, C. P. Nicholas, D. Shukla, D. W. Flaherty, "<a href="../abstracts/bregante_zeolite_2021/">The Shape of Water in Zeolites and its Impact on Oxidation Catalysis</a>", <i>Nature Catalysis</i>, 4(9), 797-808, (2021). <a href="https://doi.org/10.1038/s41929-021-00672-4" target="_blank">DOI</a>
-    </p>
-    <center><img src="/img/publications/shape_of_water_toc.png" alt="shape_of_water_toc" width="600"></center>
-    <br>
-    Featured in the <a href="https://news.illinois.edu/view/6367/219594299">Illinois News Bureau</a>.
-  </li>
-
-  <li>
-    <p> Z. Shamsi*, <b>M. Chan*</b>, D. Shukla, "<a href="../abstracts/shamsi_tlmutation_2020/">TLmutation: Predicting the Effects of Mutations Using Transfer Learning</a>", <i>The Journal of Physical Chemistry B</i>, 124 (19), 3845-3854, (2020). <a href="https://doi.org/10.1021/acs.jpcb.0c00197" target="_blank">DOI</a>
-    </p>
-    <center><img src="/img/publications/tlmutation_toc.jpeg" alt="tlmutation_toc" width="600"></center>
-  </li>
-
-</ol>
+<div class="pub-section" id="book-chapter-section">
 
 ## Book Chapter
 
-<ol reversed>
-  <li>
-    <p>R. G. Hammond, X. Tan, <b>M. Chan</b>, A. Goel, M. A. Johnson, "<a href="../abstracts/hammond_adp_2017/">Computational and Experimental Studies of ADP-Ribosylation</a>", in <i> Methods in Molecular Biology: Poly(ADP-Ribose) Polymerase</i>, A. Tulin (ed.), Springer, 2017. <a href="https://doi.org/10.1007/978-1-4939-6993-7_29" target="_blank">DOI</a>
-    </p>
-  </li>
-</ol>
+<div class="pub-list">
+{{< pub-cards type="book" >}}
+</div>
+</div>
 
 <button id="topButton" title="Go to top"><i class="fas fa-chevron-up" style="color:#FFFFFF"></i></button>

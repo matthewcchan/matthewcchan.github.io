@@ -1,0 +1,247 @@
+% =============================================================================
+% publications.bib — source of truth for all publications
+%
+% To regenerate data/publications.yaml after editing this file:
+%   pip install bibtexparser PyYAML
+%   python scripts/bib_to_data.py
+%
+% Custom fields (non-standard BibTeX, used by scripts/bib_to_data.py):
+%   image        = path to thumbnail image (e.g., /img/publications/foo.png)
+%   image_alt    = alt text for the image
+%   abstract_url = relative URL to the abstract page (e.g., ../abstracts/foo/)
+%   tags         = comma-separated filter tags
+%                  topic:       transporter, molecular-dynamics, cryo-em,
+%                               machine-learning, covid, catalysis, review
+%                  institution: uiuc, fred-hutch
+%   badge        = optional badge label (e.g., Cover Article)
+%   note         = optional HTML string shown below tags
+%   cofirst      = 1-indexed positions of co-first authors (e.g., "1, 2")
+%   preprint     = preprint URL (shown alongside DOI for published papers,
+%                  or as the primary link for unpublished entries)
+% =============================================================================
+
+@article{hollis2025molecular,
+  title={Molecular exaptation by the integrin \alphaI domain},
+  author={Hollis, Jeremy A and Chan, Matthew C and Malik, Harmit S and Campbell, Melody G},
+  journal={Science Advances},
+  volume={11},
+  number={37},
+  pages={eadx9567},
+  year={2025},
+  publisher={American Association for the Advancement of Science},
+  tags         = {fred-hutch},
+  doi = {10.1126/sciadv.adx9567}
+}
+
+@article{osuga2025ten,
+  title={Ten simple rules for running a virtual program to introduce computational biology at the high school level},
+  author={Osuga, Hanako and Chan, Matthew C and Brower, Katherine and Ray, Liza J and Chowning, Jeanne T},
+  journal={PLOS Computational Biology},
+  volume={21},
+  number={12},
+  pages={e1013830},
+  year={2025},
+  publisher={Public Library of Science San Francisco, CA USA},
+  cofirst      = {1, 2, 3},
+  corresponding = {1,2},
+  doi = {10.1371/journal.pcbi.1013830},
+  tags         = {fred-hutch},
+
+}
+
+
+@article{gen2025sars,
+  title={SARS-CoV-2 nsp1 mediates broad inhibition of translation in mammals},
+  author={Gen, Risako and Addetia, Amin and Asarnow, Daniel and Park, Young-Jun and Quispe, Joel and Chan, Matthew C and Brown, Jack T and Lee, Jimin and Campbell, Melody G and Lapointe, Christopher P and others},
+  journal={Cell Reports},
+  volume={44},
+  number={5},
+  year={2025},
+  publisher={Elsevier},
+  tags         = {covid, mrna-translation, fred-hutch},
+  doi          = {10.1016/j.celrep.2025.115696},
+}
+
+@unpublished{nguyen2025shared,
+  title={Shared ligand-blocking mechanism but distinct conformational modulation by \alpha5-targeting antibodies BIIG2 and MINT1526A},
+  author={Nguyen, Adam and Heim, Joel B and Cordara, Gabriele and Chan, Matthew C and Johannesen, Hedda and Charlesworth, Cristine and Li, Ming and Azumaya, Caleigh M and Madden, Benjamin and Krengel, Ute and others},
+  preprint     = {https://www.biorxiv.org/content/10.1101/2025.01.08.631572v2},
+  year={2025},
+  tags         = {fred-hutch},
+
+}
+
+@unpublished{young2021deep,
+  title        = {Deep mutagenesis of a neurotransmitter transporter for uptake of a non-native substrate informs how sequence features relate to conformational dynamics},
+  author       = {Young, Harold J and Chan, Matthew C and Selvam, Balaji and Szymanski, Sanjeeva K and Shukla, Diwakar and Procko, Erik},
+  year         = {2021},
+  cofirst      = {1, 2},
+  preprint     = {https://doi.org/10.1101/2021.04.19.440442},
+  image        = {/img/publications/sert_dms_fig5.jpg},
+  image_alt    = {SERT deep mutagenesis},
+  abstract_url = {../abstracts/young_dms/},
+  tags         = {transporter, machine-learning, uiuc},
+}
+
+@article{chan2025molecular,
+  title        = {Molecular insights into the elevator-type mechanism of the cyanobacterial bicarbonate transporter BicA},
+  author       = {Chan, Matthew C and Alfawaz, Yazeed and Paul, Arnav and Shukla, Diwakar},
+  journal      = {Biophysical Journal},
+  volume       = {124},
+  number       = {2},
+  pages        = {379--392},
+  year         = {2025},
+  publisher    = {Elsevier},
+  doi          = {10.1016/j.bpj.2024.11.011},
+  preprint     = {https://doi.org/10.1101/2022.06.08.495363},
+  image        = {/img/publications/bica_fig1.png},
+  image_alt    = {BicA bicarbonate transporter},
+  abstract_url = {../abstracts/chan_bica/},
+  tags         = {transporter, molecular-dynamics, uiuc},
+}
+
+@article{chan2023glycosylation,
+  title        = {The effects of N-linked glycosylation on SLC6 transporters},
+  author       = {Chan, Matthew C and Shukla, Diwakar},
+  journal      = {Journal of Chemical Information and Modeling},
+  volume       = {63},
+  number       = {9},
+  pages        = {2748--2758},
+  year         = {2023},
+  doi          = {10.1021/acs.jcim.2c00940},
+  badge        = {Cover Article},
+  image        = {/img/publications/gly_NSS_toc.jpg},
+  image_alt    = {N-linked glycosylation SLC6 transporters},
+  abstract_url = {../abstracts/chan_gly_nss/},
+  tags         = {transporter, molecular-dynamics, uiuc},
+  note         = {Featured on the cover of <a href="https://pubs.acs.org/toc/jcisd8/63/9">Journal of Chemical Information and Modeling</a>.}
+}
+
+@article{chan2023ace2,
+  title        = {Machine learning guided design of high affinity ACE2 decoys for SARS-CoV-2 neutralization},
+  author       = {Chan, Matthew C and Chan, Kenneth K and Procko, Erik and Shukla, Diwakar},
+  journal      = {The Journal of Physical Chemistry B},
+  volume       = {127},
+  number       = {9},
+  pages        = {1995--2001},
+  year         = {2023},
+  doi          = {10.1021/acs.jpcb.3c00469},
+  image        = {/img/publications/ace2_tlmutation_fig1.png},
+  image_alt    = {ACE2 machine learning design},
+  abstract_url = {../abstracts/chan_ace2/},
+  tags         = {machine-learning, covid, uiuc},
+}
+
+@article{chan2022psert,
+  title        = {Structural rearrangement of the serotonin transporter intracellular gate induced by Thr276 phosphorylation},
+  author       = {Chan, Matthew C and Procko, Erik and Shukla, Diwakar},
+  journal      = {ACS Chemical Neuroscience},
+  volume       = {13},
+  number       = {7},
+  pages        = {933--945},
+  year         = {2022},
+  doi          = {10.1021/acschemneuro.1c00714},
+  badge        = {Cover Article},
+  image        = {/img/publications/psert_toc.png},
+  image_alt    = {pSERT phosphorylation intracellular gate},
+  abstract_url = {../abstracts/chan_psert_2022/},
+  tags         = {transporter, molecular-dynamics, uiuc},
+  note         = {Featured on the cover of <a href="https://pubs.acs.org/toc/acncdm/13/7">ACS Chemical Neuroscience</a>.},
+
+}
+
+@article{chan2022sert,
+  title        = {The substrate import mechanism of the human serotonin transporter},
+  author       = {Chan, Matthew C and Selvam, Balaji and Young, Harold J and Procko, Erik and Shukla, Diwakar},
+  journal      = {Biophysical Journal},
+  volume       = {121},
+  number       = {5},
+  pages        = {715--730},
+  year         = {2022},
+  doi          = {10.1016/j.bpj.2022.01.024},
+  cofirst      = {1, 2},
+  badge        = {Cover Article},
+  note         = {Featured on the cover of <a href="https://www.cell.com/biophysj/issue?pii=S0006-3495(21)X0008-2">Biophysical Journal</a> and the <a href="https://www.biophysics.org/blog/illuminating-the-molecular-machinery-of-the-serotonin-transporter">BPS Blog</a>.},
+  image        = {/img/publications/sert_md_toc.jpg},
+  image_alt    = {SERT substrate import mechanism},
+  abstract_url = {../abstracts/chan_sert_2022/},
+  tags         = {transporter, molecular-dynamics, uiuc},
+}
+
+@article{zhang2022ace2,
+  title        = {Engineered ACE2 decoy mitigates lung injury and death induced by SARS-CoV-2 variants},
+  author      = {Zhang, Lianghui and Dutta, Soumajit and Xiong, Shiqin and Chan, Matthew and Chan, Kui K and Fan, Timothy M and Bailey, Keith L and Lindeblad, Matthew and Cooper, Laura M and Rong, Lijun and others},
+  journal      = {Nature Chemical Biology},
+  volume       = {18},
+  number       = {3},
+  pages        = {342--351},
+  year         = {2022},
+  doi          = {10.1038/s41589-021-00965-6},
+  cofirst      = {2, 3, 4},
+  note         = {Featured in <a href="https://today.uic.edu/decoy-protein-works-against-multiple-sars-cov-2-variants">UIC Today</a> and the <a href="https://directorsblog.nih.gov/2022/02/01/decoy-protein-works-against-multiple-coronavirus-variants-in-early-study/">NIH Director's Blog</a>.},
+  image        = {/img/publications/ace2_decoy_toc.png},
+  image_alt    = {Engineered ACE2 decoy SARS-CoV-2},
+  abstract_url = {../abstracts/zhang_ace2_2022/},
+  tags         = {covid, molecular-dynamics, uiuc},
+}
+
+@article{chan2021msm,
+  title        = {Markov state modeling of membrane transport proteins},
+  author       = {Chan, Matthew C and Shukla, Diwakar},
+  journal      = {Journal of Structural Biology},
+  volume       = {213},
+  number       = {4},
+  pages        = {107800},
+  year         = {2021},
+  doi          = {10.1016/j.jsb.2021.107800},
+  image        = {/img/publications/membrane_msm_toc.jpg},
+  image_alt    = {Markov state modeling membrane transport},
+  abstract_url = {../abstracts/chan_msm_2021/},
+  tags         = {molecular-dynamics, review, uiuc},
+}
+
+@article{bregante2021zeolite,
+  title        = {The shape of water in zeolites and its impact on oxidation catalysis},
+  author       = {Bregante, Daniel T and Chan, Matthew C and Tan, Jeffery Z and Ayla, Evan Z and Nicholas, Christopher P and Shukla, Diwakar and Flaherty, David W},
+  journal      = {Nature Catalysis},
+  volume       = {4},
+  number       = {9},
+  pages        = {797--808},
+  year         = {2021},
+  doi          = {10.1038/s41929-021-00672-4},
+  note         = {Featured in the <a href="https://news.illinois.edu/view/6367/219594299">Illinois News Bureau</a>.},
+  image        = {/img/publications/shape_of_water_toc.png},
+  image_alt    = {Shape of water in zeolites},
+  abstract_url = {../abstracts/bregante_zeolite_2021/},
+  tags         = {catalysis, molecular-dynamics, uiuc},
+}
+
+@article{shamsi2020tlmutation,
+  title        = {TLmutation: Predicting the effects of mutations using transfer learning},
+  author       = {Shamsi, Zahra and Chan, Matthew and Shukla, Diwakar},
+  journal      = {The Journal of Physical Chemistry B},
+  volume       = {124},
+  number       = {19},
+  pages        = {3845--3854},
+  year         = {2020},
+  doi          = {10.1021/acs.jpcb.0c00197},
+  cofirst      = {1, 2},
+  image        = {/img/publications/tlmutation_toc.jpeg},
+  image_alt    = {TLmutation transfer learning mutations},
+  abstract_url = {../abstracts/shamsi_tlmutation_2020/},
+  tags         = {machine-learning, uiuc},
+}
+
+% --- Book Chapters -----------------------------------------------------------
+
+@incollection{hammond2017adp,
+  title        = {Computational and experimental studies of ADP-ribosylation},
+  author       = {Hammond, Robert G and Tan, Xuan and Chan, Matthew and Goel, Anisha and Johnson, Mark A},
+  booktitle    = {Methods in Molecular Biology: Poly(ADP-Ribose) Polymerase},
+  editor       = {Tulin, Alexander},
+  publisher    = {Springer},
+  year         = {2017},
+  doi          = {10.1007/978-1-4939-6993-7_29},
+  abstract_url = {../abstracts/hammond_adp_2017/},
+  tags         = {review, uab},
+}

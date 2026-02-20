@@ -1,0 +1,370 @@
+- citekey: hollis2025molecular
+  pub_type: article
+  status: published
+  title: Molecular exaptation by the integrin αI domain
+  authors_html: J. A. Hollis, <b>M. C. Chan</b>, H. S. Malik, M. G. Campbell
+  year: '2025'
+  doi: 10.1126/sciadv.adx9567
+  preprint_url: ''
+  abstract_url: ''
+  image: ''
+  image_alt: ''
+  filter_tags:
+  - fred-hutch
+  display_tags:
+  - Fred Hutch
+  badge: ''
+  note: ''
+  journal: Science Advances
+  volume: '11'
+  number: '37'
+  pages: eadx9567
+- citekey: osuga2025ten
+  pub_type: article
+  status: published
+  title: Ten simple rules for running a virtual program to introduce computational
+    biology at the high school level
+  authors_html: H. Osuga*<sup>†</sup>, <b>M. C. Chan*<sup>†</sup></b>, K. Brower*,
+    L. J. Ray, J. T. Chowning
+  year: '2025'
+  doi: 10.1371/journal.pcbi.1013830
+  preprint_url: ''
+  abstract_url: ''
+  image: ''
+  image_alt: ''
+  filter_tags:
+  - fred-hutch
+  display_tags:
+  - Fred Hutch
+  badge: ''
+  note: ''
+  journal: PLOS Computational Biology
+  volume: '21'
+  number: '12'
+  pages: e1013830
+- citekey: gen2025sars
+  pub_type: article
+  status: published
+  title: SARS-CoV-2 nsp1 mediates broad inhibition of translation in mammals
+  authors_html: R. Gen, A. Addetia, D. Asarnow, Y. Park, J. Quispe, <b>M. C. Chan</b>,
+    J. T. Brown, J. Lee, M. G. Campbell, C. P. Lapointe, others
+  year: '2025'
+  doi: 10.1016/j.celrep.2025.115696
+  preprint_url: ''
+  abstract_url: ''
+  image: ''
+  image_alt: ''
+  filter_tags:
+  - covid
+  - mrna-translation
+  - fred-hutch
+  display_tags:
+  - COVID-19
+  - mRNA Translation
+  - Fred Hutch
+  badge: ''
+  note: ''
+  journal: Cell Reports
+  volume: '44'
+  number: '5'
+  pages: ''
+- citekey: nguyen2025shared
+  pub_type: unpublished
+  status: preprint
+  title: Shared ligand-blocking mechanism but distinct conformational modulation by
+    α5-targeting antibodies BIIG2 and MINT1526A
+  authors_html: A. Nguyen, J. B. Heim, G. Cordara, <b>M. C. Chan</b>, H. Johannesen,
+    C. Charlesworth, M. Li, C. M. Azumaya, B. Madden, U. Krengel, others
+  year: '2025'
+  doi: ''
+  preprint_url: https://www.biorxiv.org/content/10.1101/2025.01.08.631572v2
+  abstract_url: ''
+  image: ''
+  image_alt: ''
+  filter_tags:
+  - fred-hutch
+  display_tags:
+  - Fred Hutch
+  badge: ''
+  note: ''
+- citekey: young2021deep
+  pub_type: unpublished
+  status: preprint
+  title: Deep mutagenesis of a neurotransmitter transporter for uptake of a non-native
+    substrate informs how sequence features relate to conformational dynamics
+  authors_html: H. J. Young*, <b>M. C. Chan*</b>, B. Selvam, S. K. Szymanski, D. Shukla,
+    E. Procko
+  year: '2021'
+  doi: ''
+  preprint_url: https://doi.org/10.1101/2021.04.19.440442
+  abstract_url: ../abstracts/young_dms/
+  image: /img/publications/sert_dms_fig5.jpg
+  image_alt: SERT deep mutagenesis
+  filter_tags:
+  - transporter
+  - machine-learning
+  - uiuc
+  display_tags:
+  - Transporter
+  - Machine Learning
+  - UIUC
+  badge: ''
+  note: ''
+- citekey: chan2025molecular
+  pub_type: article
+  status: published
+  title: Molecular insights into the elevator-type mechanism of the cyanobacterial
+    bicarbonate transporter BicA
+  authors_html: <b>M. C. Chan</b>, Y. Alfawaz, A. Paul, D. Shukla
+  year: '2025'
+  doi: 10.1016/j.bpj.2024.11.011
+  preprint_url: https://doi.org/10.1101/2022.06.08.495363
+  abstract_url: ../abstracts/chan_bica/
+  image: /img/publications/bica_fig1.png
+  image_alt: BicA bicarbonate transporter
+  filter_tags:
+  - transporter
+  - molecular-dynamics
+  - uiuc
+  display_tags:
+  - Transporter
+  - Molecular Dynamics
+  - UIUC
+  badge: ''
+  note: ''
+  journal: Biophysical Journal
+  volume: '124'
+  number: '2'
+  pages: 379–392
+- citekey: chan2023glycosylation
+  pub_type: article
+  status: published
+  title: The effects of N-linked glycosylation on SLC6 transporters
+  authors_html: <b>M. C. Chan</b>, D. Shukla
+  year: '2023'
+  doi: 10.1021/acs.jcim.2c00940
+  preprint_url: ''
+  abstract_url: ../abstracts/chan_gly_nss/
+  image: /img/publications/gly_NSS_toc.jpg
+  image_alt: N-linked glycosylation SLC6 transporters
+  filter_tags:
+  - transporter
+  - molecular-dynamics
+  - uiuc
+  display_tags:
+  - Transporter
+  - Molecular Dynamics
+  - UIUC
+  badge: Cover Article
+  note: Featured on the cover of <a href="https://pubs.acs.org/toc/jcisd8/63/9">Journal
+    of Chemical Information and Modeling</a>.
+  journal: Journal of Chemical Information and Modeling
+  volume: '63'
+  number: '9'
+  pages: 2748–2758
+- citekey: chan2023ace2
+  pub_type: article
+  status: published
+  title: Machine learning guided design of high affinity ACE2 decoys for SARS-CoV-2
+    neutralization
+  authors_html: <b>M. C. Chan</b>, K. K. Chan, E. Procko, D. Shukla
+  year: '2023'
+  doi: 10.1021/acs.jpcb.3c00469
+  preprint_url: ''
+  abstract_url: ../abstracts/chan_ace2/
+  image: /img/publications/ace2_tlmutation_fig1.png
+  image_alt: ACE2 machine learning design
+  filter_tags:
+  - machine-learning
+  - covid
+  - uiuc
+  display_tags:
+  - Machine Learning
+  - COVID-19
+  - UIUC
+  badge: ''
+  note: ''
+  journal: The Journal of Physical Chemistry B
+  volume: '127'
+  number: '9'
+  pages: 1995–2001
+- citekey: chan2022psert
+  pub_type: article
+  status: published
+  title: Structural rearrangement of the serotonin transporter intracellular gate
+    induced by Thr276 phosphorylation
+  authors_html: <b>M. C. Chan</b>, E. Procko, D. Shukla
+  year: '2022'
+  doi: 10.1021/acschemneuro.1c00714
+  preprint_url: ''
+  abstract_url: ../abstracts/chan_psert_2022/
+  image: /img/publications/psert_toc.png
+  image_alt: pSERT phosphorylation intracellular gate
+  filter_tags:
+  - transporter
+  - molecular-dynamics
+  - uiuc
+  display_tags:
+  - Transporter
+  - Molecular Dynamics
+  - UIUC
+  badge: Cover Article
+  note: Featured on the cover of <a href="https://pubs.acs.org/toc/acncdm/13/7">ACS
+    Chemical Neuroscience</a>.
+  journal: ACS Chemical Neuroscience
+  volume: '13'
+  number: '7'
+  pages: 933–945
+- citekey: chan2022sert
+  pub_type: article
+  status: published
+  title: The substrate import mechanism of the human serotonin transporter
+  authors_html: <b>M. C. Chan*</b>, B. Selvam*, H. J. Young, E. Procko, D. Shukla
+  year: '2022'
+  doi: 10.1016/j.bpj.2022.01.024
+  preprint_url: ''
+  abstract_url: ../abstracts/chan_sert_2022/
+  image: /img/publications/sert_md_toc.jpg
+  image_alt: SERT substrate import mechanism
+  filter_tags:
+  - transporter
+  - molecular-dynamics
+  - uiuc
+  display_tags:
+  - Transporter
+  - Molecular Dynamics
+  - UIUC
+  badge: Cover Article
+  note: Featured on the cover of <a href="https://www.cell.com/biophysj/issue?pii=S0006-3495(21)X0008-2">Biophysical
+    Journal</a> and the <a href="https://www.biophysics.org/blog/illuminating-the-molecular-machinery-of-the-serotonin-transporter">BPS
+    Blog</a>.
+  journal: Biophysical Journal
+  volume: '121'
+  number: '5'
+  pages: 715–730
+- citekey: zhang2022ace2
+  pub_type: article
+  status: published
+  title: Engineered ACE2 decoy mitigates lung injury and death induced by SARS-CoV-2
+    variants
+  authors_html: L. Zhang, S. Dutta*, S. Xiong*, <b>M. Chan*</b>, K. K. Chan, T. M.
+    Fan, K. L. Bailey, M. Lindeblad, L. M. Cooper, L. Rong, others
+  year: '2022'
+  doi: 10.1038/s41589-021-00965-6
+  preprint_url: ''
+  abstract_url: ../abstracts/zhang_ace2_2022/
+  image: /img/publications/ace2_decoy_toc.png
+  image_alt: Engineered ACE2 decoy SARS-CoV-2
+  filter_tags:
+  - covid
+  - molecular-dynamics
+  - uiuc
+  display_tags:
+  - COVID-19
+  - Molecular Dynamics
+  - UIUC
+  badge: ''
+  note: Featured in <a href="https://today.uic.edu/decoy-protein-works-against-multiple-sars-cov-2-variants">UIC
+    Today</a> and the <a href="https://directorsblog.nih.gov/2022/02/01/decoy-protein-works-against-multiple-coronavirus-variants-in-early-study/">NIH
+    Director's Blog</a>.
+  journal: Nature Chemical Biology
+  volume: '18'
+  number: '3'
+  pages: 342–351
+- citekey: chan2021msm
+  pub_type: article
+  status: published
+  title: Markov state modeling of membrane transport proteins
+  authors_html: <b>M. C. Chan</b>, D. Shukla
+  year: '2021'
+  doi: 10.1016/j.jsb.2021.107800
+  preprint_url: ''
+  abstract_url: ../abstracts/chan_msm_2021/
+  image: /img/publications/membrane_msm_toc.jpg
+  image_alt: Markov state modeling membrane transport
+  filter_tags:
+  - molecular-dynamics
+  - review
+  - uiuc
+  display_tags:
+  - Molecular Dynamics
+  - Review
+  - UIUC
+  badge: ''
+  note: ''
+  journal: Journal of Structural Biology
+  volume: '213'
+  number: '4'
+  pages: '107800'
+- citekey: bregante2021zeolite
+  pub_type: article
+  status: published
+  title: The shape of water in zeolites and its impact on oxidation catalysis
+  authors_html: D. T. Bregante, <b>M. C. Chan</b>, J. Z. Tan, E. Z. Ayla, C. P. Nicholas,
+    D. Shukla, D. W. Flaherty
+  year: '2021'
+  doi: 10.1038/s41929-021-00672-4
+  preprint_url: ''
+  abstract_url: ../abstracts/bregante_zeolite_2021/
+  image: /img/publications/shape_of_water_toc.png
+  image_alt: Shape of water in zeolites
+  filter_tags:
+  - catalysis
+  - molecular-dynamics
+  - uiuc
+  display_tags:
+  - Catalysis
+  - Molecular Dynamics
+  - UIUC
+  badge: ''
+  note: Featured in the <a href="https://news.illinois.edu/view/6367/219594299">Illinois
+    News Bureau</a>.
+  journal: Nature Catalysis
+  volume: '4'
+  number: '9'
+  pages: 797–808
+- citekey: shamsi2020tlmutation
+  pub_type: article
+  status: published
+  title: 'TLmutation: Predicting the effects of mutations using transfer learning'
+  authors_html: Z. Shamsi*, <b>M. Chan*</b>, D. Shukla
+  year: '2020'
+  doi: 10.1021/acs.jpcb.0c00197
+  preprint_url: ''
+  abstract_url: ../abstracts/shamsi_tlmutation_2020/
+  image: /img/publications/tlmutation_toc.jpeg
+  image_alt: TLmutation transfer learning mutations
+  filter_tags:
+  - machine-learning
+  - uiuc
+  display_tags:
+  - Machine Learning
+  - UIUC
+  badge: ''
+  note: ''
+  journal: The Journal of Physical Chemistry B
+  volume: '124'
+  number: '19'
+  pages: 3845–3854
+- citekey: hammond2017adp
+  pub_type: book
+  status: published
+  title: Computational and experimental studies of ADP-ribosylation
+  authors_html: R. G. Hammond, X. Tan, <b>M. Chan</b>, A. Goel, M. A. Johnson
+  year: '2017'
+  doi: 10.1007/978-1-4939-6993-7_29
+  preprint_url: ''
+  abstract_url: ../abstracts/hammond_adp_2017/
+  image: ''
+  image_alt: ''
+  filter_tags:
+  - review
+  - uab
+  display_tags:
+  - Review
+  - UAB
+  badge: ''
+  note: ''
+  booktitle: 'Methods in Molecular Biology: Poly(ADP-Ribose) Polymerase'
+  editor: A. Tulin
+  publisher: Springer
