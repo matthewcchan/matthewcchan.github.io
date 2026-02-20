@@ -18,7 +18,7 @@ theme = "hello-friend-ng"
     # With this option on, the page user is able to set the scheme he wants. 
     enableThemeToggle = true
 
-    homeSubtitle = "Mahan Postdoctoral Fellow | Fred Hutchinson Cancer Research Center"
+    homeSubtitle = "Mahan Postdoctoral Fellow | Fred Hutch Cancer Center"
     backgroundImage = "img/SERT_blender_cover_alpha.png"
     customCSS = ["/css/custom.css"]
     customJS  = ["/js/custom.js"]
@@ -26,7 +26,7 @@ theme = "hello-friend-ng"
 
 
     [params.logo]
-        logoText = "/home/matthew c chan"
+        logoText = "/home/matthew_c_chan"
         logoHomeLink = "/"
         logoMark     = "$"
         
@@ -63,7 +63,7 @@ theme = "hello-friend-ng"
 
     [[params.social]]
         name = "email"
-        url = "mailto:mc26@illinois.edu"
+        url = "mailto:mchan3@fredhutch.org"
 
 
 [menu]
@@ -72,12 +72,6 @@ theme = "hello-friend-ng"
         name       = "About"
         url        = "/about"
         weight     = 10    
-
-    [[menu.main]]
-        identifier = "cv"
-        name       = "CV"
-        url        = "/cv"
-        weight     = 20
 
     [[menu.main]]
         identifier = "publications"
