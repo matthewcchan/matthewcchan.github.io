@@ -120,7 +120,7 @@
   doi: 10.1016/j.bpj.2024.11.011
   preprint_url: https://doi.org/10.1101/2022.06.08.495363
   abstract_url: ../abstracts/chan_bica/
-  image: /img/publications/bica_fig1.png
+  image: /img/publications/bica_fig1.jpg
   image_alt: BicA bicarbonate transporter
   filter_tags:
   - transporter
@@ -145,7 +145,7 @@
   doi: 10.1021/acs.jcim.2c00940
   preprint_url: ''
   abstract_url: ../abstracts/chan_gly_nss/
-  image: /img/publications/gly_NSS_toc.jpg
+  image: /img/publications/gly_NSS_JCIM_Cover.jpg
   image_alt: N-linked glycosylation SLC6 transporters
   filter_tags:
   - transporter
@@ -172,7 +172,7 @@
   doi: 10.1021/acs.jpcb.3c00469
   preprint_url: ''
   abstract_url: ../abstracts/chan_ace2/
-  image: /img/publications/ace2_tlmutation_fig1.png
+  image: /img/publications/ace2_tlmutation_fig1.jpg
   image_alt: ACE2 machine learning design
   filter_tags:
   - machine-learning
@@ -198,7 +198,7 @@
   doi: 10.1021/acschemneuro.1c00714
   preprint_url: ''
   abstract_url: ../abstracts/chan_psert_2022/
-  image: /img/publications/psert_toc.png
+  image: /img/publications/ACSChemNeuro_Cover.jpeg
   image_alt: pSERT phosphorylation intracellular gate
   filter_tags:
   - transporter
@@ -225,7 +225,7 @@
   doi: 10.1016/j.bpj.2022.01.024
   preprint_url: ''
   abstract_url: ../abstracts/chan_sert_2022/
-  image: /img/publications/sert_md_toc.jpg
+  image: /img/publications/BiophysicalJ_Cover.jpg
   image_alt: SERT substrate import mechanism
   filter_tags:
   - transporter
