@@ -207,3 +207,5 @@ title: ""
 </div>
 
 </div>
+
+<button id="topButton" title="Go to top"><i class="fas fa-chevron-up" style="color:#FFFFFF"></i></button>
