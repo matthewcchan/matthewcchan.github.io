@@ -1,3 +1,65 @@
+/* ── Global background image (all pages) ─────────────────────────────────── */
+body {
+  background-image: url('/img/SERT_blender_cover_alpha.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* ── Content backdrop (edges fade from transparent to opaque) ─────────────── */
+
+/* Clip overflow so the extended backdrop doesn't cause a horizontal scrollbar */
+.content {
+  overflow-x: clip;
+}
+
+.post {
+  position: relative;
+  background: transparent;
+}
+
+/* Default pages (e.g. Publications): .post is 1100px wide.
+   Extend 275px on each side → 1650px box, so text sits in the 25%–75% opaque zone. */
+.post::before {
+  content: '';
+  position: absolute;
+  inset: 0 -275px;
+  background: rgba(255, 255, 255, 0.88);
+  -webkit-mask-image:
+    linear-gradient(to right, transparent, black 20%, black 80%, transparent),
+    linear-gradient(to bottom, transparent, black 5%, black 95%, transparent);
+  -webkit-mask-composite: source-in;
+  mask-image:
+    linear-gradient(to right, transparent, black 20%, black 80%, transparent),
+    linear-gradient(to bottom, transparent, black 5%, black 95%, transparent);
+  mask-composite: intersect;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* About page: content is constrained to 700px.
+   Extend 175px on each side → 1050px box, same 25%–75% logic. */
+.post:has(.about-content)::before {
+  inset: 0 -80px;
+    background: rgba(255, 255, 255, 0.88);
+  -webkit-mask-image:
+    linear-gradient(to right, transparent, black 25%, black 75%, transparent),
+    linear-gradient(to bottom, transparent, black 5%, black 95%, transparent);
+  -webkit-mask-composite: source-in;
+  mask-image:
+    linear-gradient(to right, transparent, black 25%, black 75%, transparent),
+    linear-gradient(to bottom, transparent, black 5%, black 95%, transparent);
+
+}
+
+@media (prefers-color-scheme: dark) {
+  .post::before { background: rgba(35, 36, 37, 0.88); }
+}
+
+[data-theme=dark] .post::before { background: rgba(35, 36, 37, 0.95); }
+[data-theme=light] .post::before { background: rgba(255, 255, 255, 0.95); }
+
 /* ── Scroll-to-top button ─────────────────────────────────────────────────── */
 #topButton {
   display: none;
