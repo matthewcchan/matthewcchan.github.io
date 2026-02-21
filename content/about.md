@@ -34,6 +34,13 @@ title: ""
     <a href="mailto:mchan3@fredhutch.org" title="Email">
       <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
     </a>
+    <a href="MatthewChan_CV_Sep2022.pdf" download title="Download CV">
+      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/>
+        <polyline points="13,2 13,9 20,9"/>
+        <text x="12" y="18" text-anchor="middle" font-size="8" font-weight="700" font-family="sans-serif" letter-spacing=0 fill="currentColor" stroke="none">CV</text>
+      </svg>
+    </a>
   </div>
 
 </div>
