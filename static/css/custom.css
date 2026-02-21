@@ -55,9 +55,11 @@ body {
 
 @media (prefers-color-scheme: dark) {
   .post::before { background: rgba(35, 36, 37, 0.88); }
+  body { color: white; }
 }
 
 [data-theme=dark] .post::before { background: rgba(35, 36, 37, 0.95); }
+[data-theme=dark] body { color: white; }
 [data-theme=light] .post::before { background: rgba(255, 255, 255, 0.95); }
 
 /* ── Scroll-to-top button ─────────────────────────────────────────────────── */
