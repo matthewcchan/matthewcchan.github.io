@@ -18,7 +18,7 @@ theme = "hello-friend-ng"
     # With this option on, the page user is able to set the scheme he wants. 
     enableThemeToggle = true
 
-    homeSubtitle = "Mahan Postdoctoral Fellow | Fred Hutch Cancer Center"
+    homeSubtitle = "Mahan Postdoctoral Fellow · Fred Hutch Cancer Center"
     backgroundImage = "img/SERT_blender_cover_alpha.png"
     customCSS = ["/css/custom.css"]
     customJS  = ["/js/custom.js"]
@@ -46,20 +46,20 @@ theme = "hello-friend-ng"
         url = "https://scholar.google.com/citations?user=hpHJn5QAAAAJ&hl=en/"
 
     [[params.social]]
-        name = "twitter"
-        url = "https://twitter.com/mattcchan/"
-
-    [[params.social]]
-        name = "linkedin"
-        url = "https://www.linkedin.com/in/matthew-c-chan-0/"
+        name = "orcid"
+        url = "https://orcid.org/0000-0002-9826-1983"
 
     [[params.social]]
         name = "github"
         url = "https://github.com/matthewcchan/"
 
     [[params.social]]
-        name = "orcid"
-        url = "https://orcid.org/0000-0002-9826-1983"
+        name = "twitter"
+        url = "https://twitter.com/mattcchan/"
+
+    [[params.social]]
+        name = "linkedin"
+        url = "https://www.linkedin.com/in/matthew-c-chan-0/"
 
     [[params.social]]
         name = "email"
